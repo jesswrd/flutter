@@ -650,7 +650,7 @@ bool validateAgpAndKgp(Logger logger, {required String? kgpV, required String? a
       'AGP version ($agpV) older than oldest supported $oldestConsideredAgpVersion.',
     );
   }
-  const maxKnownAgpVersionWithFullKotinSupport = '8.7.2';
+  const maxKnownAgpVersionWithFullKotinSupport = '8.11.1';
 
   if (isWithinVersionRange(
         kgpV,
